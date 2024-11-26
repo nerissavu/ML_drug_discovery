@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 class DrugPredictor:
-    def __init__(self, model_dir='rf_drug_analysis_results/final_results'):
+    def __init__(self, model_dir='ml_project/'):
         self.model_dir = model_dir
         self.models = self.load_models()
         

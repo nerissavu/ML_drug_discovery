@@ -2,6 +2,10 @@
 
 Machine learning system for predicting drug delivery properties using molecular descriptors.
 
+## App Usage
+- Download the model file from https://drive.google.com/drive/folders/1EQjgeVYYiPT_zpukC6HdqyVpEYPBD9Oo?usp=sharing
+- run 'streamlit run app.py' on terminal
+
 ## Overview
 
 ### Target Variables - Properties
