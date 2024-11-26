@@ -1,0 +1,1 @@
+{"train_metrics": {"r2": 0.9163162817402581, "rmse": 0.33614687464695575, "mae": 0.25401991037680693}, "test_metrics": {"r2": 0.4223448830361798, "rmse": 0.8974256479252299, "mae": 0.67309486988576}, "best_params": {"regressor__max_depth": 20, "regressor__min_samples_leaf": 1, "regressor__min_samples_split": 2, "regressor__n_estimators": 300}}

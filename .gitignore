@@ -1,0 +1,4 @@
+rf_drug_analysis_interpretable_analysis/final_results/*_model.pkl
+rf_drug_analysis_results/final_results/*_model.pkl
+archive
+cleaned_drug_data.pkl

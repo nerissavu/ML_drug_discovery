@@ -1,0 +1,1 @@
+{"train_metrics": {"f1": 0.9654649242530466, "precision": 0.9686975703722115}, "test_metrics": {"f1": 0.9005119289094947, "precision": 0.9218498227521753}, "best_params": {"classifier__max_depth": 10, "classifier__min_samples_leaf": 1, "classifier__min_samples_split": 5, "classifier__n_estimators": 200}}

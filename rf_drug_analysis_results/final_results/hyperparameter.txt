@@ -1,0 +1,52 @@
+(bind_aff_al) ngavu@hartreeisback:~/projects/machine_learning_project$ python hyperparameter.py 
+Loading cleaned data...
+
+Processing Caco2_Wang
+
+Training Random Forest for Caco2_Wang...
+Fitting 5 folds for each of 108 candidates, totalling 540 fits
+
+Results for Caco2_Wang:
+Train metrics: {'r2': 0.9400998709885265, 'rmse': 0.17164869798387958, 'mae': 0.13014371541939893}
+Test metrics: {'r2': 0.6771703589739435, 'rmse': 0.40397331405693215, 'mae': 0.30838797383219624}
+Best parameters: {'regressor__max_depth': None, 'regressor__min_samples_leaf': 1, 'regressor__min_samples_split': 2, 'regressor__n_estimators': 200}
+
+Processing HIA_Hou
+
+Training Random Forest for HIA_Hou...
+Fitting 5 folds for each of 108 candidates, totalling 540 fits
+
+Results for HIA_Hou:
+Train metrics: {'f1': 0.9654649242530466, 'precision': 0.9686975703722115}
+Test metrics: {'f1': 0.9005119289094947, 'precision': 0.9218498227521753}
+Best parameters: {'classifier__max_depth': 10, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 200}
+
+Processing Bioavailability_Ma
+
+Training Random Forest for Bioavailability_Ma...
+Fitting 5 folds for each of 108 candidates, totalling 540 fits
+
+Results for Bioavailability_Ma:
+Train metrics: {'f1': 1.0, 'precision': 1.0}
+Test metrics: {'f1': 0.6259708737864078, 'precision': 0.6267959770114943}
+Best parameters: {'classifier__max_depth': None, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200}
+
+Processing Lipophilicity_AstraZeneca
+
+Training Random Forest for Lipophilicity_AstraZeneca...
+Fitting 5 folds for each of 108 candidates, totalling 540 fits
+
+Results for Lipophilicity_AstraZeneca:
+Train metrics: {'r2': 0.9163162817402581, 'rmse': 0.33614687464695575, 'mae': 0.25401991037680693}
+Test metrics: {'r2': 0.4223448830361798, 'rmse': 0.8974256479252299, 'mae': 0.67309486988576}
+Best parameters: {'regressor__max_depth': 20, 'regressor__min_samples_leaf': 1, 'regressor__min_samples_split': 2, 'regressor__n_estimators': 300}
+
+Processing Solubility_AqSolDB
+
+Training Random Forest for Solubility_AqSolDB...
+Fitting 5 folds for each of 108 candidates, totalling 540 fits                                                                                                                                                                                                    5-Nov-24
+
+Results for Solubility_AqSolDB:
+Train metrics: {'r2': 0.9311032126395693, 'rmse': 0.5652271084197301, 'mae': 0.3697203306827603}
+Test metrics: {'r2': 0.7652545091557126, 'rmse': 1.0658454233161831, 'mae': 0.7217485199776233}
+Best parameters: {'regressor__max_depth': 30, 'regressor__min_samples_leaf': 2, 'regressor__min_samples_split': 2, 'regressor__n_estimators': 300}
