@@ -2,9 +2,27 @@
 
 Machine learning system for predicting drug delivery properties using molecular descriptors.
 
-## App Usage
-- Download the model file from https://drive.google.com/drive/folders/1EQjgeVYYiPT_zpukC6HdqyVpEYPBD9Oo?usp=sharing
-- run 'streamlit run app.py' on terminal
+## App Usage - Installation
+
+Follow these steps to get [Your Project Name] up and running on your local machine:
+
+### 1. Clone the repository
+
+Clone the repository to your local machine using the following command:
+
+    git clone https://github.com/nerissavu/ML_drug_discovery.git
+
+### 2. Install required dependencies
+
+Install the required Python libraries specified in `requirements.txt`:
+
+    pip install -r requirements.txt
+
+### 3. Download model folders
+Download the model folder file from https://drive.google.com/drive/folders/1EQjgeVYYiPT_zpukC6HdqyVpEYPBD9Oo?usp=sharing
+
+### 4. Start the application
+run 'streamlit run app.py' on terminal
 
 ## Overview
 
