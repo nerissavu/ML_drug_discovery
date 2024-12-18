@@ -2,6 +2,26 @@
 
 Machine learning system for predicting drug delivery properties using molecular descriptors.
 
+## Author
+**Author**: Nerissa Vu  
+**Email**: vuthunga2002@gmail.com  
+Chemical Engineering Student, Department of Chemical Engineering, Bucknell University
+
+## Course Information
+**Course**: Data Science for Chemical Engineering  
+**Course Code**: CHEME 472 
+**Instructor**: Prof. Jude Okolie 
+**Quarter**: Fall 2024  
+**Project Type**: Individual ML Project  
+
+## Acknowledgments
+This work builds upon the Therapeutic Data Commons (TDC) dataset and methodology.  
+
+Special thanks to:
+- The TDC team for providing the comprehensive drug discovery datasets
+- The ChemE Data Science teaching team for their guidance
+- The open-source community behind RDKit and other tools used in this project
+
 ## App Usage - Installation
 
 Follow these steps to get [Your Project Name] up and running on your local machine:
